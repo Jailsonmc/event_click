@@ -9,9 +9,7 @@ $( "#button-center" ).click(function() {
 $( "#button-botton" ).click(function() {
 
 	$(".container-botton").css('display','block');
-	//$("#container-botton").addClass('activeContainer');
 	$("#container-center").removeClass('disabledContainer');
 	$("#container-center").removeClass('to_darken');
-	//$('.container-botton').click(true);
 
 });	
