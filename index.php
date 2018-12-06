@@ -17,7 +17,7 @@
 	<div class="container-right"></div>
 	<div class="container-botton">
 
-		<div class="button" id="button-botton">Click</div>
+		<div class="button" id="button-botton">Click2</div>
 
 	</div>
 	<div class="container-left"></div>
