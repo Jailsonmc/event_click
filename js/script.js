@@ -4,9 +4,9 @@ $( "#button-center" ).click(function() {
 	//$(".container-center").pointer-events:none;
 
 	$(".container-center").css('display','block');
-	$(".container-center").css('disabledContainer');
+	$("#container-center").addClass('disabledContainer');
 
-	$(".container-center").css('try-modal');
+	$("#container-center").addClass('try-modal');
   	//$(".btn2,.btn3").addClass("disabledbutton");
 
 });	

@@ -8,12 +8,12 @@
 
 <div class="container">
 	
-	<div class="container-center">
+	<div id="container-center" class="container-center">
 		
 		<div class="button" id="button-center">Click</div>
 
 	</div>
-	<div class="container-top"></div>
+	<div id="container-top" class="container-top"></div>
 	<div class="container-right"></div>
 	<div class="container-botton">
 
