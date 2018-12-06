@@ -8,17 +8,20 @@
 
 <div class="container">
 	
-	<div class="container-top"></div>
-	<div class="container-right"></div>
-	<div class="container-botton">
-		<div class="button" id="button-botton">Click</div>
-	</div>
-	<div class="container-left"></div>
 	<div class="container-center">
 		
 		<div class="button" id="button-center">Click</div>
 
 	</div>
+	<div class="container-top"></div>
+	<div class="container-right"></div>
+	<div class="container-botton">
+
+		<div class="button" id="button-botton">Click</div>
+
+	</div>
+	<div class="container-left"></div>
+	
 
 </div>
 
