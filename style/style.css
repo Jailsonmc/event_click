@@ -1,0 +1,27 @@
+.container-top { grid-area: header; }
+.container-left { grid-area: menu; }
+.container-right { grid-area: right; }
+.container-botton { grid-area: footer; }
+.container-center { grid-area: main; }
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main right'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.container-main{
+  height: 400px;
+}
+
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
